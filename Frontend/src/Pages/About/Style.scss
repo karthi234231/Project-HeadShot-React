@@ -1,0 +1,51 @@
+@import '../../Styles/Index.scss';
+
+.containerr {
+    padding: 14px;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.two_h {
+    font-size: 4.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 30vh;
+}
+
+.box {
+    background-color: $primaryColor;
+    color: $buttonText;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: darken($primaryColor, 10%);
+    }
+}
+
+.stop-button {
+    background-color: #e53935;
+    color: $buttonText;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: darken(#e53935, 10%);
+    }
+}

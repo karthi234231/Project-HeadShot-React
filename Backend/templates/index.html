@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection and Tracking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Face Detection and Tracking</h1>
+    <div class="container">
+        <form method="POST" action="/run_script">
+            <input type="hidden" name="script" value="face_detection">
+            <button type="submit" class="box">Face Detection</button>
+        </form>
+        <form method="POST" action="/run_script">
+            <input type="hidden" name="script" value="face_tracking">
+            <button type="submit" class="box">Head Target</button>
+        </form>
+        <form method="POST" action="/run_script">
+            <input type="hidden" name="script" value="tracking_system">
+            <button type="submit" class="box">Track Motion</button>
+        </form>
+        <form method="POST" action="/stop_script">
+            <button type="submit" class="stop-button">Stop Script</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/XFCDzBN/Screenshot-2024-08-25-214258.png",
+        "heading": "> HEADSHOT",
+        "link": "https://reelink.vercel.app",
+        "github": "https://github.com/dev-palwar/Movie-app"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/qrYG5Vw/Screenshot-2024-08-25-222828.png",
+        "heading": "> E-learn Website",
+        "link": "https://www.youtube.com/watch?v=UrmzcJ32R6A&t=1s",
+        "github": "https://github.com/karthi234231/E-Learn"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/xYWgc06/Screenshot-2024-08-25-220034.png",
+        "heading": "> Movie-Streaming-App",
+        "link": "https://aniwatchh.netlify.app/",
+        "github": "https://github.com/karthi234231/Anime-Stream-App"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/Br5Z224/Screenshot-2024-08-26-125114.png",
+        "heading": "> PMS",
+        "link": "https://www.linkedin.com/posts/karthikjogi_helloconnections-fullstackproject-project-activity-7107050261788966912-72gy?utm_source=share&utm_medium=member_desktop",
+        "github": "https://lnkd.in/gMPSRnH8"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/C7QmzPn/Screenshot-2024-08-25-212652.png",
+        "heading": "> Dictionary",
+        "link": "https://dictionary09.netlify.app/",
+        "github": "https://github.com/karthi234231/Word-Dictionary-"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/WPDg1RN/Screenshot-2024-08-25-220558.png",
+        "heading": "> Amazon Clone",
+        "link": "https://jk-amazon-clone01.netlify.app/",
+        "github": "https://github.com/karthi234231/amazon-clone"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/b3r13Cb/Screenshot-2023-11-30-at-20-01-39-React-App.png",
+        "heading": " > Netflix Clone",
+        "link": "https://mini-e-eomerce-app.vercel.app/",
+        "github": "https://github.com/dev-palwar/react-mini-eCommerce-app"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/74b7rcY/Screenshot-2024-08-25-220339.png",
+        "heading": "> Portfolio Main",
+        "link": "https://karthikjogi-portfolio-main.netlify.app/",
+        "github": "https://github.com/karthi234231/Portofolio-App"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/zF0VnBB/Screenshot-2024-08-25-222024.png",
+        "heading": "> Twitter clone",
+        "link": "https://twitter-clone-masterr.netlify.app/",
+        "github": "https://github.com/karthi234231/Twitter-Clone"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/cYDq53Q/Screenshot-2024-08-26-170902.png",
+        "heading": "> Crop Recomendation System",
+        "link": "https://github.com/karthi234231/Crop-Recomendation",
+        "github": "https://github.com/karthi234231/CropRecomendation-System"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/W6X8K95/Screenshot-2024-08-25-220742.png",
+        "heading": "> NewYear CountDown",
+        "link": "https://jk-coutdown.netlify.app/",
+        "github": "https://github.com/dev-palwar/Thumbnail-downloader"
+    }
+]
