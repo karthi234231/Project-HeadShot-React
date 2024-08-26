@@ -3,15 +3,15 @@
         "id": 1,
         "img": "https://i.ibb.co/XFCDzBN/Screenshot-2024-08-25-214258.png",
         "heading": "> HEADSHOT",
-        "link": "https://reelink.vercel.app",
-        "github": "https://github.com/dev-palwar/Movie-app"
+        "link": "https://github.com/karthi234231/Project-HeadShot-",
+        "github": "https://github.com/karthi234231/Project-HeadShot-"
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/qrYG5Vw/Screenshot-2024-08-25-222828.png",
         "heading": "> E-learn Website",
         "link": "https://www.youtube.com/watch?v=UrmzcJ32R6A&t=1s",
-        "github": "https://github.com/karthi234231/E-Learn"
+        "github": "https://github.com/karthi234231/E-Learn-APP"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "img": "https://i.ibb.co/Br5Z224/Screenshot-2024-08-26-125114.png",
         "heading": "> PMS",
         "link": "https://www.linkedin.com/posts/karthikjogi_helloconnections-fullstackproject-project-activity-7107050261788966912-72gy?utm_source=share&utm_medium=member_desktop",
-        "github": "https://lnkd.in/gMPSRnH8"
+        "github": "https://github.com/karthi234231/BharatIntern/tree/main/ProjectManagementSystem"
     },
     {
         "id": 5,
@@ -42,28 +42,21 @@
         "github": "https://github.com/karthi234231/amazon-clone"
     },
     {
-        "id": 7,
-        "img": "https://i.ibb.co/b3r13Cb/Screenshot-2023-11-30-at-20-01-39-React-App.png",
-        "heading": " > Netflix Clone",
-        "link": "https://mini-e-eomerce-app.vercel.app/",
-        "github": "https://github.com/dev-palwar/react-mini-eCommerce-app"
-    },
-    {
-        "id": 10,
+        "id": 8,
         "img": "https://i.ibb.co/74b7rcY/Screenshot-2024-08-25-220339.png",
         "heading": "> Portfolio Main",
         "link": "https://karthikjogi-portfolio-main.netlify.app/",
         "github": "https://github.com/karthi234231/Portofolio-App"
     },
     {
-        "id": 8,
+        "id": 9,
         "img": "https://i.ibb.co/zF0VnBB/Screenshot-2024-08-25-222024.png",
         "heading": "> Twitter clone",
         "link": "https://twitter-clone-masterr.netlify.app/",
         "github": "https://github.com/karthi234231/Twitter-Clone"
     },
     {
-        "id": 9,
+        "id": 10,
         "img": "https://i.ibb.co/cYDq53Q/Screenshot-2024-08-26-170902.png",
         "heading": "> Crop Recomendation System",
         "link": "https://github.com/karthi234231/Crop-Recomendation",
@@ -71,6 +64,13 @@
     },
     {
         "id": 11,
+        "img": "https://i.ibb.co/tB1xLqF/Screenshot-2024-08-26-175225.png",
+        "heading": "> CMS",
+        "link": "https://www.linkedin.com/posts/karthikjogi_helloconnections-fullstackproject-content-activity-7107037349498298368-JAVH?utm_source=share&utm_medium=member_desktop",
+        "github": "https://github.com/karthi234231/BharatIntern/tree/main/ContentManagementSystem/ContentMangement-main/ContentMangement-main"
+    },
+    {
+        "id": 12,
         "img": "https://i.ibb.co/W6X8K95/Screenshot-2024-08-25-220742.png",
         "heading": "> NewYear CountDown",
         "link": "https://jk-coutdown.netlify.app/",
