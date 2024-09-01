@@ -2,21 +2,30 @@ from flask import Flask, request, jsonify
 import subprocess
 import psutil
 from flask_cors import CORS
+import logging
 
 app = Flask(__name__)
 CORS(app)
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # Global variable to keep track of the running process
 current_process = None
 
 def terminate_process(process):
     if process:
         try:
+            logger.info(f'Terminating process with PID: {process.pid}')
             parent = psutil.Process(process.pid)
             for child in parent.children(recursive=True):
+                logger.info(f'Terminating child process with PID: {child.pid}')
                 child.terminate()
             parent.terminate()
+            parent.wait()  # Ensure the process is cleaned up
         except psutil.NoSuchProcess:
-            pass
+            logger.warning('Process not found or already terminated')
 
 @app.route('/run_script', methods=['POST'])
 def run_script():
@@ -35,6 +44,8 @@ def run_script():
         current_process = subprocess.Popen(['python', 'facetracking.py'])
     elif script_name == 'tracking_system':
         current_process = subprocess.Popen(['python', 'MotionDetection.py'])
+    else:
+        return jsonify({"status": "Unknown script"}), 400
 
     return jsonify({"status": "Script started"}), 200
 
@@ -45,35 +56,9 @@ def stop_script():
     if current_process:
         terminate_process(current_process)
         current_process = None
-
-    return jsonify({"status": "Script stopped"}), 200
+        return jsonify({"status": "Script stopped"}), 200
+    else:
+        return jsonify({"status": "No script is running"}), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-import cv2
-
-# Open the camera
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)  # Using DirectShow backend as an example
-
-if not cap.isOpened():
-    print("Cannot open camera")
-    exit()
-
-while True:
-    ret, frame = cap.read()
-
-    if not ret:
-        print("Can't receive frame (stream end?). Exiting ...")
-        break  # Exit the loop if no frame is captured
-
-    # Process the frame (e.g., display or perform face detection)
-    cv2.imshow('Frame', frame)
-
-    if cv2.waitKey(1) == ord('q'):
-        break
-
-# Release the capture and close windows
-cap.release()
-cv2.destroyAllWindows()
