@@ -16,7 +16,7 @@ const socialIcons = [
   {
     Component: AiFillInstagram,
     color: "#26a7de",
-    link: "https://twitter.com/dev_palwar2",
+    link: "https://www.instagram.com/karthii_k1/",
   },
   {
     Component: AiFillLinkedin,
